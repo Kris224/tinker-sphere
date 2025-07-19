@@ -20,21 +20,21 @@
     --popover: 250 50% 98%;
     --popover-foreground: 240 15% 9%;
 
-    /* Primary Brand Colors - Vibrant Purple */
-    --primary: 259 94% 51%;
-    --primary-light: 259 94% 65%;
-    --primary-dark: 259 94% 35%;
-    --primary-foreground: 250 100% 99%;
+    /* Primary Brand Colors - Energetic Orange */
+    --primary: 25 95% 53%;
+    --primary-light: 25 95% 67%;
+    --primary-dark: 25 95% 39%;
+    --primary-foreground: 0 0% 100%;
 
-    /* Secondary Colors - Cyan Accent */
-    --secondary: 189 100% 85%;
-    --secondary-foreground: 240 15% 15%;
+    /* Secondary Colors - Fresh Green */
+    --secondary: 142 69% 58%;
+    --secondary-foreground: 0 0% 100%;
 
-    /* Accent Colors - Bright Cyan */
-    --accent: 189 100% 56%;
-    --accent-light: 189 100% 70%;
-    --accent-dark: 189 100% 42%;
-    --accent-foreground: 250 100% 99%;
+    /* Accent Colors - Electric Blue */
+    --accent: 217 91% 60%;
+    --accent-light: 217 91% 74%;
+    --accent-dark: 217 91% 46%;
+    --accent-foreground: 0 0% 100%;
 
     /* Muted & Neutral */
     --muted: 250 20% 92%;
@@ -49,25 +49,25 @@
     /* Interactive Elements */
     --border: 240 20% 88%;
     --input: 240 20% 90%;
-    --ring: 259 94% 51%;
+    --ring: 25 95% 53%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(259 94% 51%), hsl(189 100% 56%));
-    --gradient-secondary: linear-gradient(135deg, hsl(250 40% 95%), hsl(250 50% 98%));
-    --gradient-accent: linear-gradient(135deg, hsl(189 100% 70%), hsl(259 94% 65%));
-    --gradient-glass: linear-gradient(135deg, hsl(250 100% 99% / 0.1), hsl(189 100% 99% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(25 95% 53%), hsl(217 91% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(142 69% 58%), hsl(25 95% 67%));
+    --gradient-accent: linear-gradient(135deg, hsl(217 91% 74%), hsl(142 69% 70%));
+    --gradient-glass: linear-gradient(135deg, hsl(25 95% 53% / 0.1), hsl(217 91% 60% / 0.05));
 
     /* Glass Effects */
     --glass-bg: hsl(250 100% 99% / 0.8);
     --glass-border: hsl(250 100% 99% / 0.2);
-    --glass-shadow: 0 8px 32px hsl(259 94% 51% / 0.1);
+    --glass-shadow: 0 8px 32px hsl(25 95% 53% / 0.1);
 
     /* Shadows */
     --shadow-sm: 0 2px 8px hsl(240 15% 9% / 0.04);
     --shadow-md: 0 4px 16px hsl(240 15% 9% / 0.08);
     --shadow-lg: 0 8px 32px hsl(240 15% 9% / 0.12);
-    --shadow-primary: 0 8px 32px hsl(259 94% 51% / 0.3);
-    --shadow-accent: 0 8px 32px hsl(189 100% 56% / 0.3);
+    --shadow-primary: 0 8px 32px hsl(25 95% 53% / 0.3);
+    --shadow-accent: 0 8px 32px hsl(217 91% 60% / 0.3);
 
     /* Border Radius */
     --radius: 0.75rem;
@@ -96,20 +96,20 @@
     --popover: 240 15% 9%;
     --popover-foreground: 250 50% 96%;
 
-    /* Primary Brand Colors */
-    --primary: 259 94% 65%;
-    --primary-light: 259 94% 75%;
-    --primary-dark: 259 94% 45%;
+    /* Primary Brand Colors - Bright Orange for Dark */
+    --primary: 25 95% 60%;
+    --primary-light: 25 95% 74%;
+    --primary-dark: 25 95% 46%;
     --primary-foreground: 240 15% 6%;
 
-    /* Secondary Colors */
-    --secondary: 240 15% 15%;
-    --secondary-foreground: 250 50% 96%;
+    /* Secondary Colors - Vibrant Green */
+    --secondary: 142 69% 65%;
+    --secondary-foreground: 240 15% 6%;
 
-    /* Accent Colors */
-    --accent: 189 100% 70%;
-    --accent-light: 189 100% 80%;
-    --accent-dark: 189 100% 56%;
+    /* Accent Colors - Bright Blue */
+    --accent: 217 91% 70%;
+    --accent-light: 217 91% 80%;
+    --accent-dark: 217 91% 56%;
     --accent-foreground: 240 15% 6%;
 
     /* Muted & Neutral */
@@ -119,7 +119,7 @@
     /* Interactive Elements */
     --border: 240 15% 20%;
     --input: 240 15% 18%;
-    --ring: 259 94% 65%;
+    --ring: 25 95% 60%;
 
     /* Glass Effects */
     --glass-bg: hsl(240 15% 12% / 0.8);
@@ -130,8 +130,8 @@
     --shadow-sm: 0 2px 8px hsl(240 15% 6% / 0.2);
     --shadow-md: 0 4px 16px hsl(240 15% 6% / 0.3);
     --shadow-lg: 0 8px 32px hsl(240 15% 6% / 0.4);
-    --shadow-primary: 0 8px 32px hsl(259 94% 65% / 0.4);
-    --shadow-accent: 0 8px 32px hsl(189 100% 70% / 0.3);
+    --shadow-primary: 0 8px 32px hsl(25 95% 60% / 0.4);
+    --shadow-accent: 0 8px 32px hsl(217 91% 70% / 0.3);
   }
 }
 
@@ -170,8 +170,8 @@
 
   /* Hero Background */
   .hero-bg {
-    background: radial-gradient(ellipse at top, hsl(259 94% 51% / 0.1) 0%, transparent 50%),
-                radial-gradient(ellipse at bottom right, hsl(189 100% 56% / 0.1) 0%, transparent 50%),
+    background: radial-gradient(ellipse at top, hsl(25 95% 53% / 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, hsl(217 91% 60% / 0.1) 0%, transparent 50%),
                 hsl(var(--background));
   }
 
